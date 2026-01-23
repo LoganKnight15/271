@@ -8,8 +8,8 @@
 *
 * Purpose
 * This program reads a list of scores from an input file, counts how many
-* scores there are in the list, and computes their sum and average.
-*
+* scores there are in the list, and computes their sum and average. Please provide the file name
+* as an argument when running the program!!!!!
 *************************************************************************/
 /*******************************************************************
 * I declare and confirm the following:
