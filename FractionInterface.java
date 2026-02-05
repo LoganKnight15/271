@@ -1,4 +1,4 @@
-public interface FractionInterface {
+public interface FractionInterface{
     Fraction divide(Fraction f);
     Fraction multiply(Fraction f);
     Fraction subtract(Fraction f);
