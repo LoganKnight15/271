@@ -20,7 +20,6 @@ public class Fraction implements FractionInterface{
         denominator = 1;
     }
     /* 
-    // example constructor case
     public long getNumerator(){
         System.out.println("I am working");
         long i = 10;
