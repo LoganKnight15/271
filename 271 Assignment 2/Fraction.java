@@ -20,11 +20,31 @@ public class Fraction implements FractionInterface{
         numerator = num;
         denominator = 1;
     }
+    gcd(numerator, denominator){
+        if ( a < 0 ){ //then a = -a // to avoid sign problems
+        while (b != 0){
+            remainder = a % b;
+            a = b;
+            b = remainder;
+        }
+        }
+        if a == 0
+        a = 1
+        return a
+    }
+    @Override
     public long getNumerator(){
         return numerator;
     }
+    @Override
     public long getDenominator(){
         return denominator;
+    }
+    @Override
+    public String toString(){
+        String output = " ";
+        output = Long.toString(numerator) + "/" + Long.toString(denominator);
+        return output;
     }
     /* 
     public Fraction add(Fraction inFraction){
@@ -46,10 +66,6 @@ public class Fraction implements FractionInterface{
     }
     public Fraction negate(){
     /* your logic here 
-    }
-    @Override
-    public String toString(){
-    /* put your print logic here 
     }
     */
 }
