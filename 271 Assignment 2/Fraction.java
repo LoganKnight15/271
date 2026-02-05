@@ -6,6 +6,7 @@ public class Fraction implements FractionInterface{
     public Fraction(long num, long denom){
         numerator = num;
         denominator = denom;
+        
         if (numerator % denominator == 0){
             numerator = numerator/denominator;
             denominator = denominator/denominator;
