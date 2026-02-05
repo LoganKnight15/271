@@ -1,4 +1,4 @@
-public class Fraction {
+public class Fraction implements FractionInterface {
     private long numerator;
     private long denominator;
     public Fraction(long num, long denom){
