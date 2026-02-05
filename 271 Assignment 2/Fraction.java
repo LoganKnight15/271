@@ -11,17 +11,16 @@ public class Fraction implements FractionInterface{
             denominator = denominator/denominator;
         }
         else if (denominator % numerator == 0){
-
-        }else{
-
+            numerator = numerator / numerator;
+            denominator = denominator / numerator;
         }
+    }
+    public Fraction(long num){
+        numerator = num;
+        denominator = 1;
     }
     /* 
     // example constructor case
-    public Fraction(long num){
-    numerator = num;
-    denominator = 1;
-    }
     public long getNumerator(){
         System.out.println("I am working");
         long i = 10;
