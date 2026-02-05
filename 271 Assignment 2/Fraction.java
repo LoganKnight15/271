@@ -6,7 +6,7 @@ public class Fraction implements FractionInterface{
     public Fraction(long num, long denom){
         numerator = num;
         denominator = denom;
-        
+
         if (numerator % denominator == 0){
             numerator = numerator/denominator;
             denominator = denominator/denominator;
@@ -20,17 +20,13 @@ public class Fraction implements FractionInterface{
         numerator = num;
         denominator = 1;
     }
-    /* 
     public long getNumerator(){
-        System.out.println("I am working");
-        long i = 10;
-        return i;
+        return numerator;
     }
     public long getDenominator(){
-        System.out.println("I am working");
-        long i = 10;
-        return i;
+        return denominator;
     }
+    /* 
     public Fraction add(Fraction inFraction){
         System.out.println("I am working");
         Fraction a = inFraction;
