@@ -88,6 +88,39 @@ public class Fraction implements FractionInterface{
     }
 
 
+    public Fraction pow(int n){
+        long num = getNumerator();
+        long denum = getDenominator();
+        long newnum = num;
+        long newdenum = denum;
+        int powe = Math.abs(n);
+        if (n == 0){
+            newnum = 1;
+            newdenum = 1;
+        }
+        else{
+            for (int i = 1; i < powe; ++i){
+                newnum *= num;
+                newdenum *= denum;
+            }
+        }
+        if (n < 0){
+            long temp = newnum;
+            newnum = newdenum;
+            newdenum = temp;
+        }
+        return new Fraction(newnum, newdenum);
+    }
+
+
+    public Fraction negate(){
+        long num = getNumerator();
+        long denum = getDenominator();
+        num = -num;
+        return new Fraction(num, denum);
+    }
+
+
     @Override
     public String toString(){
         String output = " ";
@@ -111,12 +144,5 @@ public class Fraction implements FractionInterface{
         }
         return output;
     }
-    /* 
-    public Fraction pow(int n){
-    /* your logic here 
-    }
-    public Fraction negate(){
-    /* your logic here 
-    }
-    */
+
 }

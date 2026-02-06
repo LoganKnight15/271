@@ -31,5 +31,13 @@ public class Assignment2 {
        System.out.println(d);
        Fraction s = new Fraction(21, 8).subtract(new Fraction(80,11)); //Outputs -409/88
        System.out.println(s);
+       Fraction p = new Fraction(1, 4).pow(3); //Outputs 1/64
+       System.out.println(p);
+       Fraction pn = new Fraction(1, 4).pow(-3); //Outputs 64
+       System.out.println(pn);
+       Fraction pz = new Fraction(1, 4).pow(0); //Outputs 1
+       System.out.println(pz);
+       Fraction ne = new Fraction(1,0).negate();
+       System.out.println(ne);
     }
 }

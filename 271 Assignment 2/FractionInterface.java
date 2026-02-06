@@ -5,8 +5,6 @@ public interface FractionInterface{
     Fraction multiply(Fraction f);
     Fraction add(Fraction f);
     Fraction subtract(Fraction f);
-    /* 
-    Fraction negate( );
+   Fraction negate();
     Fraction pow(int n);
-    */
 }
