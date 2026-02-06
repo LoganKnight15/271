@@ -1,4 +1,4 @@
-public class Assignment2 {
+public class CSCI271_Assignemnt2_LoganRobinson {
     public static void main(String[] args){
         /*
         Tasks 1 and 2 test code for creating and printing fractions. Fractions a and b are created properly. 

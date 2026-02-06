@@ -1,10 +1,10 @@
-public interface FractionInterface{
+public interface CSCI271_Assignemnt2_FractionInterface{
     long getNumerator();
     long getDenominator();
     Fraction divide(Fraction f);
     Fraction multiply(Fraction f);
     Fraction add(Fraction f);
     Fraction subtract(Fraction f);
-   Fraction negate();
+    Fraction negate();
     Fraction pow(int n);
 }

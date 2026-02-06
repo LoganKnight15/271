@@ -1,4 +1,4 @@
-public class Fraction implements FractionInterface{
+public class Fraction implements CSCI271_Assignemnt2_FractionInterface{
 
     private long numerator;
     private long denominator;
