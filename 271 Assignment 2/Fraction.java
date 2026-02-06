@@ -70,6 +70,24 @@ public class Fraction implements FractionInterface{
     }
 
 
+    public Fraction add(Fraction inFraction){
+        long num = getNumerator();
+        long denum = getDenominator();
+        long newnum = num * inFraction.denominator + denum * inFraction.numerator;
+        long newdenum = denum * inFraction.denominator;
+        return new Fraction(newnum, newdenum);
+    }
+
+
+    public Fraction subtract(Fraction inFraction){
+        long num = getNumerator();
+        long denum = getDenominator();
+        long newnum = num * inFraction.denominator - denum * inFraction.numerator;
+        long newdenum = denum * inFraction.denominator;
+        return new Fraction(newnum, newdenum);
+    }
+
+
     @Override
     public String toString(){
         String output = " ";
@@ -94,14 +112,6 @@ public class Fraction implements FractionInterface{
         return output;
     }
     /* 
-    public Fraction add(Fraction inFraction){
-        System.out.println("I am working");
-        Fraction a = inFraction;
-        return Fraction a;
-    }
-    public Fraction subtract(Fraction inFraction){
-    /* your logic here 
-    }
     public Fraction pow(int n){
     /* your logic here 
     }

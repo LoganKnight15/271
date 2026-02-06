@@ -23,9 +23,13 @@ public class Assignment2 {
         /*
         Code for Task 3 test cases
         */
-       Fraction r = new Fraction(3,5).divide(new Fraction(7)); //Outputs 3/35
+       Fraction r = new Fraction(3,5).add(new Fraction(7)); //Outputs 38/5
        System.out.println(r);
-       Fraction t = new Fraction(76,30).multiply(new Fraction(8, 13));//Outputs 304/195
+       Fraction t = new Fraction(76,30).multiply(new Fraction(8, 13)); //Outputs 304/195
        System.out.println(t);
+       Fraction d = new Fraction(4,21).divide(new Fraction(3,85)); //Outputs 340/63
+       System.out.println(d);
+       Fraction s = new Fraction(21, 8).subtract(new Fraction(80,11)); //Outputs -409/88
+       System.out.println(s);
     }
 }
