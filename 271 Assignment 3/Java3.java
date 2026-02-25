@@ -77,13 +77,13 @@ public class Java3{
         System.out.println("Please state how any integers you are going to enter");
         userLength = userInput.nextInt();
 
-        int arr[] = new int[userLength];
+        int A[] = new int[userLength];
 
         System.out.println("Please enter a list of integers");
         for(int i = 0; i < userLength; ++i){
-            arr[i] = userInput.nextInt();
+            A[i] = userInput.nextInt();
         }
-        int maximum = max(arr, userLength);
+        int maximum = max(A, userLength);
         System.out.println("Max value of the list you provided is: " + maximum);
 
         userInput.close();
