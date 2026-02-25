@@ -1,0 +1,21 @@
+Script started on Wed Feb 25 18:28:39 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hexitjava CSCI271_Assignment3Problem3_LoganRobinson[P[14C [15D4_LoganRobinson[14D[?2004l
+Please enter a very long integer followed by the int you want found:
+237253716731526735128635126
+Exception in thread "main" java.util.InputMismatchException: For input string: "237253716731526735128635126"
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2388)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at CSCI271_Assignment3Problem4_LoganRobinson.main(CSCI271_Assignment3Problem4_LoganRobinson.java:74)
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004h2 java CSCI271_Assignment3Problem4_LoganRobinson[?2004l
+Please enter a very long integer followed by the int you want found:
+25435367323223
+2
+the int you've entered: 2 occurs 4 times in the long int you entered
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava CSCI271_Assignment3Problem4_LoganRobinson[?2004l
+Please enter a very long integer followed by the int you want found:
+999999292929292
+9
+the int you've entered: 9 occurs 10 times in the long int you entered
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 18:29:09 2026

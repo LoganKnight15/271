@@ -1,0 +1,14 @@
+Script started on Wed Feb 25 18:26:50 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hexitjava CSCI271_Assignment3Problem1_LoganRobinson[P[14C [15D2_LoganRobinson[14D[?2004l
+Please enter a string and on the next line a character
+I am a test string
+i
+the char you've entered: i occurs 1 times in the string you entered
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava CSCI271_Assignment3Problem2_LoganRobinson[?2004l
+Please enter a string and on the next line a character
+TEST    testing fir    or some rando   om letter
+e
+the char you've entered: e occurs 4 times in the string you entered
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 18:27:28 2026

@@ -1,0 +1,30 @@
+Script started on Wed Feb 25 18:27:46 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hexitjava CSCI271_Assignment3Problem2_LoganRobinson[P[14C [15D3_LoganRobinson[14D[?2004l
+Please state how any integers you are going to enter
+6
+Please enter a list of integers
+3
+4
+2
+1
+8
+2
+Max value of the list you provided is: 8
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava CSCI271_Assignment3Problem3_LoganRobinson[?2004l
+Please state how any integers you are going to enter
+10
+Please enter a list of integers
+9
+4
+5
+2
+200
+4
+30
+2
+1
+1
+Max value of the list you provided is: 200
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 18:28:23 2026

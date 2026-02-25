@@ -1,0 +1,12 @@
+Script started on Wed Feb 25 18:25:58 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hclearscript Java2Output.txt[22Dclear                 [17Dexit java Java2     CSCI271_Assignment3Problem1_LoganRobinson. [?2004l
+Please enter a string:
+I am a string
+The length of the string you entered is: 13
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava CSCI271_Assignment3Problem1_LoganRobinson[?2004l
+Please enter a string:
+I
+The length of the string you entered is: 1
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 18:26:20 2026

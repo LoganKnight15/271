@@ -1,0 +1,12 @@
+Script started on Wed Feb 25 18:29:25 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hexitjava CSCI271_Assignment3Problem4_LoganRobinson[P[14C [15D5_LoganRobinson[14D[?2004l
+Please enter the string you want reversed: 
+I am a test string
+The reverse of the string you entered is: gnirts tset a ma I
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava CSCI271_Assignment3Problem5_LoganRobinson[?2004l
+Please enter the string you want reversed: 
+Hello World!
+The reverse of the string you entered is: !dlroW olleH
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 18:29:46 2026
