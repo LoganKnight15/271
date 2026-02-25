@@ -32,7 +32,7 @@
 
 import java.util.Scanner;
 
-public class 271Assignment3_Problem1_LoganRobinson{
+public class Java1{
 
     /*****************************<lengthOfString>****************************
     * Description: lengthOfString will take in a user generated string and check
