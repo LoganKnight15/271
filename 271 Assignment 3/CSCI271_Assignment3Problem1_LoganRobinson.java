@@ -69,6 +69,7 @@ public class CSCI271_Assignment3Problem1_LoganRobinson{
         String S;
         Scanner userInput = new Scanner(System.in);
 
+        System.out.println("Please enter a string:");
         S = userInput.nextLine();
         int stringLength = lengthOfString(S);
         System.out.println("The length of the string you entered is: " + stringLength);
