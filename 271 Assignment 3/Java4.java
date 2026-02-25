@@ -1,5 +1,5 @@
 /*************************************************************************
-* Project 4 for CSCI 271-001 Spring 2026
+* Project 3 for CSCI 271-001 Spring 2026
 *
 * Author: Logan Robinson
 * OS: macOS Tahoe Version 26.3 and Windows 11 version 25H2
