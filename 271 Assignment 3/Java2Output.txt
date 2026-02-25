@@ -1,0 +1,14 @@
+Script started on Wed Feb 25 10:55:18 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hexitjava Java2c Java2.java[12D Java2      [?2004l
+Please enter a string and on the next line a character
+this is a test string looking for the ll etter a in this string  .
+a
+the char you've entered: a occurs 2 times in the string you entered
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava Java2[?2004l
+Please enter a string and on the next line a character
+Now we look for the letter o to see how many times ot    it appears
+o
+the char you've entered: o occurs 7 times in the string you entered
+[1m[7m%[27m[1m[0m                                                                                                                                                                    [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 10:56:12 2026
