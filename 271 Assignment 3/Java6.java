@@ -8,8 +8,10 @@
 *
 * Purpose
 * This program reads in a number for the length of an array. It then takes a list of integers from the use to populate that array.
-* It will then call a function called max that uses recursion to find the maximum value in that list of integers.
-* This value is then returned and printed to the user.
+* It will then call a function called sumEven that will take in an index value of 0 which is the start of the array and will then
+* begin to check if its first at the end of the array if not it will check if the number at index 0 is even. If it is even it will add it to
+* sumOfEvens. If not it will check the next index value recursively until it reaches the end of the array. It will lastly return the sumOfEvens value
+* whcih is the sum of all even ints in the array
 *
 *************************************************************************/
 /*******************************************************************
@@ -33,41 +35,38 @@
 import java.util.Scanner;
 
 public class Java6{
-    /*****************************<max>****************************
-    * Description: max takes in an integer array and an int that corresponds to the length of that array.
-    * We then check if the array only has one value in it or not. If so we return that value as our max.
-    * If that is not the case we recursively check to find the maximum value of integers in the array provided
-    * to use by the user. Once we have the max we return it back to main
+    /*****************************<sumEven>****************************
+    * Description: sumEven takes in an integer array and an int that corresponds to the first index position in the array.
+    * We then check if that index position is at the end of the array. If so we return a 0. If not we then check if that number is positive if so
+    * we add it to sumOfEvens if not we check the next number recursively. Once we reach the end we return the total value of the sum of the even numbers
     *
-    * Parameters: int array[] and int length. These two correspond to int arr[] and int userLength in main respectively
+    * Parameters: int array[] and int n. These two correspond to int A[] and the 0 in the fucntion call in main respectively
     *
-    * Pre: Before the function is called there must be an array of ints arr and a user defined length for that array userLength.
-    * Both the length and the array must be passed into the max function call.
+    * Pre: Before the function is called there must be an array of ints A and an index specification.
+    * Both the index and the array must be passed into the max function call.
     *
-    * Post: Once max is done it must return an integer value containing the max value from the array provided to it. This is either the 1st and only
-    * element in the array or that value is found recursively.
+    * Post: Once sumEven is done it must return an integer value containing the sum value of all the even ints from the array provided to it. This is either 0 or 
+    * it is found in the array recursively.
     *
-    * Returns: An integer value that is the max value from a user defined array of integers
+    * Returns: An integer value that is the sum of all even integers in the array
     *
     * Called by: main()
-    * Calls: max(int array[], int length)
+    * Calls: sumEven()
     ************************************************************************/
-    public static int sumEven(int array[], int length){
-        int maxInt;
-        if(length <= 1){ //This is the base cae. If there is only one element.
-            return array[0];
+    public static int sumEven(int array[], int n){
+        int sumOfEvens;
+        if(n == array.length){ //This is the base cae. Checking if we have reached the end of the array
+            return 0;
         }
-        //This is the recursive case.
-        int arrayRecur = max(array, length - 1);
 
-        //This is comparing the numbers on the way back up of the recursion.
-        if(array[length - 1] > arrayRecur){
-            maxInt = array[length - 1];
+        //This is the recursive case it will check if the int at position n is postive or not. If so add it to the sum
+        if(array[n] % 2 == 0){
+            sumOfEvens = array[n] + sumEven(array, n + 1);
         }
         else{
-            maxInt = arrayRecur;
+            sumOfEvens = sumEven(array, n + 1);
         }
-        return maxInt;
+        return sumOfEvens;
     }
 
     public static void main(String[] args) {
@@ -83,8 +82,8 @@ public class Java6{
         for(int i = 0; i < userLength; ++i){
             arr[i] = userInput.nextInt();
         }
-        int maximum = max(arr, userLength);
-        System.out.println("Max value of the list you provided is: " + maximum);
+        int sum = sumEven(arr, 0);
+        System.out.println("The sum of the even numbers in the array you provided is: " + sum);
 
         userInput.close();
         
