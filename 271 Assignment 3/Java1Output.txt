@@ -1,0 +1,13 @@
+Script started on Wed Feb 25 10:14:44 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjjava Java1[?2004l
+
+The length of the string you entered is: 0
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava Java1[?2004l
+The lengt         I want to know my length!
+The length of the string you entered is: 25
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004hjava Java1[10D          [10Djava Java1[?2004l
+test is 9
+The length of the string you entered is: 9
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 3 % [K[?2004heexit[?2004l
+
+Script done on Wed Feb 25 10:15:40 2026
