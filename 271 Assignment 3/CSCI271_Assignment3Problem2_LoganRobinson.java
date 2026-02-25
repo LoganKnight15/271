@@ -31,7 +31,7 @@
 
 import java.util.Scanner;
 
-public class Java2{
+public class CSCI271_Assignment3Problem2_LoganRobinson{
     /*****************************<countOfChar>****************************
     * Description: countOfChar takes in a user defined string and a char they want to search for. It first checks if the string is empty
     * if so it returns taht count is equal to 0. If not it will then check by using recursion how many times the user entered char occurs in the string.

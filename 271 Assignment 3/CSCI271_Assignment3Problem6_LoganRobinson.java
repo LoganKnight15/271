@@ -34,7 +34,7 @@
 
 import java.util.Scanner;
 
-public class Java6{
+public class CSCI271_Assignment3Problem6_LoganRobinson{
     /*****************************<sumEven>****************************
     * Description: sumEven takes in an integer array and an int that corresponds to the first index position in the array.
     * We then check if that index position is at the end of the array. If so we return a 0. If not we then check if that number is positive if so

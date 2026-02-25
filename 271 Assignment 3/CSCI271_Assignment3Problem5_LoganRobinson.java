@@ -2,13 +2,13 @@
 * Project 3 for CSCI 271-001 Spring 2026
 *
 * Author: Logan Robinson
-* OS: macOS Tahoe Version 26.3
+* OS: macOS Tahoe Version 26.3 and Windows 11 version 25H2
 * Compiler: javac 21.0.9
 * Date: Feb 25, 2026
 *
 * Purpose
 * This program reads in a user generated string and recursively returns
-* the length of that string.
+* the the string in reverse.
 *
 *************************************************************************/
 /*******************************************************************
@@ -32,49 +32,46 @@
 
 import java.util.Scanner;
 
-public class Java1{
+public class CSCI271_Assignment3Problem5_LoganRobinson{
 
-    /*****************************<lengthOfString>****************************
-    * Description: lengthOfString will take in a user generated string and check
-    * if it meets the base case of an empty string or it does not it will find the length
-    * of the string through recursion.
+    /*****************************<stringReverse>****************************
+    * Description: stringReverse takes in a user generated string userString. It will then check if the string is empty. If so it returns that empty string
+    * Otehrwise it will take that string and recursively reverse the string and return that reversed string.
     *
     * Parameters: String userString which stands in for String S in main
     *
     * Pre: Before the function is called there must be a String S in main that must either be
-    * empty of contain user entered data. That string must be passed in to lengthOfString where 
+    * empty of contain user entered data. That string must be passed in to stringReversewhere 
     * String userString stands in for it.
     *
-    * Post: Once lengthOfString is done there will be an integer value returned to the user.
-    * Either 0 in the base case or whatever the length is calculated recursively.
+    * Post: Once stringReverse is done there will be a string reverse returned to the user.
+    * Either "" in the base case or the reversed string of what the user entered.
     *
-    * Returns: An integer value that is the length of the string
+    * Returns: A string that is the reverse of the user entered string
     *
     * Called by: main()
-    * Calls: lengthOfString()
+    * Calls: stringReverse()
     ************************************************************************/
 
-    public static int lengthOfString(String userString){
+    public static String stringReverse(String userString){
+        String reverse;
         if (userString.equals("")){
-            return 0;
+            reverse =  "";
         }
         else{
-            int length = 1;
-            length += lengthOfString(userString.substring(1));
-            return length;
+            reverse = stringReverse(userString.substring(1)) +  userString.charAt(0);
         }
+        return reverse;
     }
 
     public static void main(String[] args) {
         String S;
         Scanner userInput = new Scanner(System.in);
-
+        
+        System.out.println("Please enter the string you want reversed: ");
         S = userInput.nextLine();
-        int stringLength = lengthOfString(S);
-        System.out.println("The length of the string you entered is: " + stringLength);
+        String reversed = stringReverse(S);
+        System.out.println("The reverse of the string you entered is: " + reversed);
         userInput.close();
     }
 }
-/*
-* The runtime analysis of this program is O(n)
-*/

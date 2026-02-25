@@ -32,7 +32,7 @@
 
 import java.util.Scanner;
 
-public class Java3{
+public class CSCI271_Assignment3Problem3_LoganRobinson{
     /*****************************<max>****************************
     * Description: max takes in an integer array and an int that corresponds to the length of that array.
     * We then check if the array only has one value in it or not. If so we return that value as our max.

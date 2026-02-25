@@ -31,7 +31,7 @@
 
 import java.util.Scanner;
 
-public class Java4{
+public class CSCI271_Assignment3Problem4_LoganRobinson{
     /*****************************<countOfD>****************************
     * Description: countOfD takes in a user defined long int and an int they want to search for. It first checks if the long int is either 0 and the int they entered is 0
     * or if only the long int is 0. If so it will return 1 if both the long int and int are 0 and it will return a 0 if only the long int is 0.
