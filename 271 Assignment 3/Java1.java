@@ -75,3 +75,6 @@ public class Java1{
         userInput.close();
     }
 }
+/*
+* The runtime analysis of this program is O(n)
+*/
