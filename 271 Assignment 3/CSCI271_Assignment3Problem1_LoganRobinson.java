@@ -76,6 +76,3 @@ public class CSCI271_Assignment3Problem1_LoganRobinson{
         userInput.close();
     }
 }
-/*
-* The runtime analysis of this program is O(n)
-*/
