@@ -2,7 +2,7 @@
 * Programming Assignment 4 for CSCI 271-001 Spring 2026
 *
 * Author: Logan Robinson
-* OS: Windows 11 Version 25H2 and 
+* OS: Windows 11 Version 25H2 and macOS Tahoe Version 26.3
 * Compiler: g++
 * Date: March 23 2026
 *
