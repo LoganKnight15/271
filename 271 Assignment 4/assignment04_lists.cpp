@@ -58,8 +58,8 @@ template <typename T> class Node{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-      if(this->next != NULL){
-        delete next;
+      if(this->next != NULL){ //Check if the next node in the list is NULL
+        delete this->next; //If not delete that Node
       }
 
       // DO NOT REMOVE THE NEXT LINE: keep at end of your destructor method!!
@@ -83,8 +83,8 @@ template <typename T> class List{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-        if(this->head != NULL){
-          delete this->head;
+        if(this->head != NULL){ //Check if the head node is NULL
+          delete this->head; //If not delete that head
         }
 
         DN += 1;  // keep track of deallocations
@@ -102,19 +102,19 @@ template <typename T> class List{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-        Node<T>* pNode = new Node<T>;
-        pNode->element = item;
-        pNode->next = NULL;
+        Node<T>* pNode = new Node<T>; //Create a new Node pointer called pNode
+        pNode->element = item; //Assign pNode's element to the item passed in
+        pNode->next = NULL; //Set the Pnode pointer to next equal to NULL
 
-        if(this->head == NULL){
-          this->head = pNode;
+        if(this->head == NULL){ //Check if the head is NULL
+          this->head = pNode; //If it is set it equal to pNode
         }
         else{
-          Node<T>* temp = this->head;
-          while(temp->next != NULL){
-            temp = temp->next;
+          Node<T>* temp = this->head; //Create a temp pointer to head
+          while(temp->next != NULL){ //Check for while temp's next node is not NULL
+            temp = temp->next;       //Set temp equal to the next value. AKA move through the list
           }
-          temp->next = pNode;
+          temp->next = pNode; //Set the next node to pNode
         }
 
         cout<<"new node added at back!"<<endl; // your method MUST use this!
@@ -127,10 +127,10 @@ template <typename T> class List{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-        Node<T>* pNode = new Node<T>;
-        pNode->element = item;
-        pNode->next = this->head;
-        this->head = pNode;
+        Node<T>* pNode = new Node<T>; //Create a new Node pointer called pNode
+        pNode->element = item; //Assign pNode's element to the item passed in
+        pNode->next = this->head; //Set pNode's next node equal to the lists head node
+        this->head = pNode; //Set the lists head node equal to the value of pNode
 
         cout<<"new node added at front !"<<endl; // your method MUST use this!
       }
@@ -218,21 +218,21 @@ template <typename T> class List{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-        if (this->head == NULL){
-          cout<<"The list is empty"<<endl;
+        if (this->head == NULL){ //Check if the lists head node is NULL
+          cout<<"The list is empty"<<endl; //If so output this line
         }
-        else if(this->head->next == NULL){
-          delete this->head;
-          this->head = NULL;
-          cout<<"last item removed"<<endl;
+        else if(this->head->next == NULL){ //Check if the node following head is NULL 
+          delete this->head; //If so delete the head
+          this->head = NULL; //Set the head to NULL
+          cout<<"last item removed"<<endl; //Output this line
         }
         else{
-          Node<T>* temp = this->head;
-          while(temp->next->next != NULL){
-            temp = temp->next;
+          Node<T>* temp = this->head; //Create a new temp node pointer and assign it to head
+          while(temp->next->next != NULL){ //Check for while two nodes fwon from temp is not null
+            temp = temp->next; //Set temp equal to the next value. AKA move through the list
           }
-          delete temp->next;
-          temp->next = NULL;
+          delete temp->next; //Delete the node after temp
+          temp->next = NULL; //Set that node to NULL
           cout<<"last item removed"<<endl; // your method MUST use this!
         }
       }
@@ -276,14 +276,14 @@ template <typename T> class List{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-        if(this->head == NULL){
-          cout<<"The list is empty!"<<endl;
+        if(this->head == NULL){//Check if the lists head node is NULL
+          cout<<"The list is empty!"<<endl;//If so output this line
         }
         else{
-          Node<T>* temp = this->head;
-          this->head = this->head->next;
-          temp->next = NULL; 
-          delete temp;
+          Node<T>* temp = this->head; //Create a new temp node pointer and assign it to head
+          this->head = this->head->next; //Set head euqal to the node that follows it
+          temp->next = NULL; //Set the temp node's next node to NUll
+          delete temp; //delete the temp node's value
           cout<<"front item removed"<<endl; // your method MUST use this!
         }
 
@@ -296,19 +296,19 @@ template <typename T> class List{
 /********************************************************************************
         // replace the following line with your code!!!!!
 *********************************************************************************/
-        if(this->head == NULL){
-          cout<<"linked list is empty!"<<endl;
+        if(this->head == NULL){//Check if the lists head node is NULL
+          cout<<"linked list is empty!"<<endl;//If so output this line
         }
-        else if(index < 0 || index >= size()){
-          cout<<"index out of bound!"<<endl;
+        else if(index < 0 || index >= size()){//Check if the index is less than 0 or greater than the size of the list
+          cout<<"index out of bound!"<<endl;//Output this line if that's the case
         }
         else{
-          Node<T>* temp = this->head;
+          Node<T>* temp = this->head;//Create a new temp node pointer and assign it to head
 
-          for(int i=0; i < index; i++){
-            temp=temp->next;
+          for(int i=0; i < index; i++){//For loop as long as i is less than the index value
+            temp=temp->next;//SXet temp euqal to the node afterwards. AKA move to the next item in the list
           }
-          res = temp->element;
+          res = temp->element;//Set res equal to the element at the node temp is pointing to.
         }
 
         return res;  // return the results -- YOU MUST USE THIS!!!!
