@@ -1,0 +1,381 @@
+Script started on Mon Mar 23 16:47:39 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Logan'sMacBook/Users/loganrobinson/Desktop/271/271%20Assignment%204[0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 4 % [K[?2004h../a4.bin[?2004l
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+1
+enter item to insert:
+22
+new node added at back!
+CPU time used: 3 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+2
+enter item to insert:
+55
+new node added at front !
+CPU time used: 20 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 2 items________________
+[ 55 , 22] 
+
+CPU time used: 12 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+1
+enter item to insert:
+9
+new node added at back!
+CPU time used: 2 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 3 items________________
+[ 55 , 22 , 9] 
+
+CPU time used: 10 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+5
+enter index:
+1
+item at index 1is: 22
+CPU time used: 15 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+3
+enter item to insert:
+1 55
+enter index:
+1
+new node added at index 1 !
+CPU time used: 28 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 4 items________________
+[ 55 , 55 , 22 , 9] 
+
+CPU time used: 16 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+3
+enter item to insert:
+33
+enter index:
+3
+new node added at index 3 !
+CPU time used: 27 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 5 items________________
+[ 55 , 55 , 22 , 33 , 9] 
+
+CPU time used: 12 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+6
+last item removed
+CPU time used: 12 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 4 items________________
+[ 55 , 55 , 22 , 33] 
+
+CPU time used: 11 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+7
+front item removed
+CPU time used: 12 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 3 items________________
+[ 55 , 22 , 33] 
+
+CPU time used: 11 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+8
+enter index:
+2
+item removed at index 2
+CPU time used: 22 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 2 items________________
+[ 55 , 22] 
+
+CPU time used: 16 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+1
+enter item to insert:
+44
+new node added at back!
+CPU time used: 4 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+1
+enter item to insert:
+22
+new node added at back!
+CPU time used: 4 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 4 items________________
+[ 55 , 22 , 44 , 22] 
+
+CPU time used: 16 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+8
+enter index:
+2
+item removed at index 2
+CPU time used: 18 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+4
+____________List of 3 items________________
+[ 55 , 22 , 22] 
+
+CPU time used: 15 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+5
+enter index:
+2
+item at index 2is: 22
+CPU time used: 24 ms
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+9: exit
+9
+CPU time used: 10 ms
+..........................................
+........   CONGRATULATIONS on memory well managed! .... :^) !!!!
+Allocation Calls: 8
+DeAllocation Calls: 8
+zsh: segmentation fault  ./a4.bin
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Logan'sMacBook/Users/loganrobinson/Desktop/271/271%20Assignment%204[0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 4 % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...       4 completed.
+
+Script done on Mon Mar 23 16:49:45 2026
