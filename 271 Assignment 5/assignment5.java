@@ -1,3 +1,32 @@
+/*************************************************************************
+* Project 5 for CSCI 271-001 Spring 2026
+*
+* Author: Logan Robinson
+* OS: Windows 11 Version 25H2 and MacOS 
+* Compiler: javac 21.0.10
+* Date: April 13, 2026
+*
+* Purpose
+* This program is a Java program to implement a gneric Linked List
+*
+*************************************************************************/
+/*******************************************************************
+* I declare and confirm the following:
+* - I have not discussed this program code with anyone other than my
+* instructor or the teaching assistants assigned to this course.
+* - I have not used programming code obtained from someone else,
+* or any unauthorised sources, including the Internet, either
+* modified or unmodified.
+* - If any source code or documentation used in my program was
+* obtained from other sources, like a text book or course notes,
+* I have clearly indicated that with a proper citation in the
+* comments of my program.
+* - I have not designed this program in such a way as to defeat or
+* interfere with the normal operation of the supplied grading code.
+*
+* Logan Robinson
+********************************************************************/
+
 // Java Program to Implement Generic Linked List
 
 // Importing all input output classes
@@ -255,9 +284,49 @@ class List<T> {
   }
   // ********************************** insertSorted() **********************************
   public void insertSorted(T item){
-    
-  }
+    Node<T> newNode = new Node<>(item);
 
+    if(this.isEmpty()){
+      this.head = newNode;
+      this.size++;
+    }
+     /*Tried multiple other ways but this was the only way I could find that worked. Though I do understand what this is saying
+     We are casting the item to a comparable object at runtime. Could also add a T extends Comparable above to avoid the aquiggles but I chose not to do this
+     This was also found by a combination of looking at Java reference guide online and VS Code suggestions*/
+    else if(((Comparable<T>) item).compareTo(this.head.getElement()) <0){
+      newNode.setNext(this.head);
+      this.head = newNode;
+      this.size++;
+    }
+    else {
+      Node<T> temp = this.head;
+
+      while (temp.getNext() != null && ((Comparable<T>) temp.getNext().getElement()).compareTo(item) < 0) {
+        temp = temp.getNext();
+      }
+
+      newNode.setNext(temp.getNext());
+      temp.setNext(newNode);
+      this.size++;
+    }
+  }
+  // ********************************** InsertionSort() **********************************
+  public void insertionSort(){
+    if(this.size <= 1){
+      return;
+    }
+    int mid = this.size / 2;
+    List<T> right = this.splitAt(mid);
+    this.insertionSort();
+    right.insertionSort();
+
+    Node<T> temp = right.head;
+
+    while (temp != null) {
+      this.insertSorted(temp.getElement());
+      temp = temp.getNext();
+    }
+  }
 }
 
 // The class for the Main Program
@@ -284,6 +353,8 @@ public class assignment5 {
       System.out.println( "7: delete front");
       System.out.println( "8: delete at index");
       System.out.println( "88: split at at index");
+      System.out.println("11: insert sorted");
+      System.out.println("99: insertion sort");
       System.out.println( "9: exit");
       ch = sc.nextInt();
 
@@ -336,6 +407,19 @@ public class assignment5 {
           list.displayAll();
           System.out.println("Right list:");
           newList.displayAll();
+          break;
+        case 11:
+          System.out.println("enter item:");
+          item = sc.nextInt();
+          list.insertSorted(item);
+          break;
+        case 99:
+          if (list.isEmpty()) {
+            System.out.println("List is empty, cannot sort!");
+          } else {
+            list.insertionSort();
+            System.out.println("List sorted!");
+          }
           break;
         default:
           System.out.println( "invalid selection");
