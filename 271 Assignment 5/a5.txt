@@ -1,0 +1,274 @@
+Script started on Mon Apr 13 20:39:17 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 5 % [K[?2004hjjava assignment5[?2004l
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+1
+enter item to insert:
+50
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+1
+enter item to insert:
+20
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+1
+enter item to insert:
+7000
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+1
+enter item to insert:
+56
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+1
+enter item to insert:
+567
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+4
+displayAll():
+____________List of 5 items________________
+[ 50 , 20 , 7000 , 56 , 567] 
+
+displayRecursively():
+____________List of 5 items________________
+[ 50 , 20 , 7000 , 56 , 567] 
+
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+11
+enter item:
+90
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+99
+List sorted!
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+4
+displayAll():
+____________List of 6 items________________
+[ 20 , 50 , 56 , 90 , 567 , 7000] 
+
+displayRecursively():
+____________List of 6 items________________
+[ 20 , 50 , 56 , 90 , 567 , 7000] 
+
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+88
+enter index:
+4
+Left list:
+displayAll():
+____________List of 4 items________________
+[ 20 , 50 , 56 , 90] 
+
+Right list:
+displayAll():
+____________List of 2 items________________
+[ 567 , 7000] 
+
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+4
+displayAll():
+____________List of 4 items________________
+[ 20 , 50 , 56 , 90] 
+
+displayRecursively():
+____________List of 4 items________________
+[ 20 , 50 , 56 , 90] 
+
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+11
+enter item:
+52
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+44 
+displayAll():
+____________List of 5 items________________
+[ 20 , 50 , 52 , 56 , 90] 
+
+displayRecursively():
+____________List of 5 items________________
+[ 20 , 50 , 52 , 56 , 90] 
+
+____________Main Menu_____________________
+select option :
+1: insert back
+2: insert front
+3: insert at index
+4: display items
+5: get item at index
+6: delete back
+7: delete front
+8: delete at index
+88: split at at index
+11: insert sorted
+99: insertion sort
+9: exit
+9
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 5 % [K[?2004heexit[?2004l
+
+Script done on Mon Apr 13 20:41:40 2026
