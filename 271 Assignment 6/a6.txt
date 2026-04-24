@@ -1,0 +1,200 @@
+Script started on Fri Apr 24 12:48:02 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 6 % [K[?2004hjjava assignment6. [?2004l
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+50
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+3
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+40
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+56789
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+25
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+10
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+1
+enter item to insert:
+600
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+2
+enter item to insert:
+40
+40 is found in the tree!
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+2
+enter item to insert:
+67
+Sorry... 67 is NOT found in the tree!
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+6
+The max of the tree is: 56789
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+7
+The min of the tree is: 3
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+8
+The size of the tree is: 7
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+4
+displayAll():
+____________Tree of 7 items________________
+3 10 25 40 50 600 56789 
+____________Main Menu_____________________
+select option :
+1: insert item
+2: find item
+3: tree height
+4: display items
+5: delete item
+6: get max
+7: get min
+8: tree size
+9: exit
+9
+Goodbye!!
+[1m[7m%[27m[1m[0m                                                                                                                                                       [0m[27m[24m[Jloganrobinson@Logan'sMacBook 271 Assignment 6 % [K[?2004heexit[?2004l
+
+Script done on Fri Apr 24 12:48:54 2026
